@@ -7,4 +7,110 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(180deg,#1c5380 50%, white 50%);
+  box-sizing: border-box;
 }
+
+.main-div {
+  display: flex;
+  margin: 50px;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-div > img {
+  width: 25%;
+  margin-right: 50px;
+}
+
+.logo-home {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  width: 700px;
+}
+
+.logo-home > img {
+  width: 500px;
+}
+
+.main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c5380;
+  margin-left: 20px;
+  width: 150px;
+  height: 60px;
+  padding-left: 10px;
+  box-shadow: 5px;
+}
+
+.main-btn img {
+  padding: 10px;
+  width: 40px;
+  
+}
+
+.main-btn p {
+  padding-right: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-content-text {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px white;
+  border-radius: 5px;
+}
+
+.main-content-text h1 {
+  font-size: 30px;
+  text-align: left;
+  color: #1c5380;
+}
+
+.main-content-text p {
+  text-align: justify;
+}
+
+.e-stores-btn {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.e-stores-btn img {
+  padding: 10px;
+  width: 30%;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.footer-links > li {
+  padding: 20px;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+
+
+
